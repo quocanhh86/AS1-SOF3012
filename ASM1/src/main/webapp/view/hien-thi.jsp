@@ -77,22 +77,22 @@
     </thead>
     <tbody>
     <c:forEach items="${listFriend}" var="b" varStatus="i">
-        <tr onclick="window.location.href='/ban/hien-thi?id=${b.id}'" class="clickable-row">
+        <tr>
             <td>
-                <a href="/ban/hien-thi?id=${b.id}" class="link-dark text-decoration-none">${i.index + 1}</a>
+                ${i.index + 1}
             </td>
             <td>
-                <a href="/ban/hien-thi?id=${b.id}" class="link-dark text-decoration-none">${b.ma}</a>
+                ${b.ma}
             </td>
             <td>
-                <a href="/ban/hien-thi?id=${b.id}" class="link-dark text-decoration-none">${b.ten}</a>
+             ${b.ten}
             </td>
             <td>
-                <a href="/ban/hien-thi?id=${b.id}" class="link-dark text-decoration-none">${b.soThich}</a>
+               ${b.soThich}
             </td>
             <td>
-                <a href="/ban/hien-thi?id=${b.id}"
-                   class="link-dark text-decoration-none">${b.gioiTinh == 0 ? "Nam" : "Nữ"}</a>
+               
+                   class="link-dark text-decoration-none">${b.gioiTinh == 0 ? "Nam" : "Nữ"}
             </td>
             <td>
                 <button class="btn btn-danger">
