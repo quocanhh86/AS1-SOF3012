@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="mt-4 mb-3 justify-content-center d-flex gap-2">
-        <button type="submit" formaction="/ban/add" class="btn btn-info col-1" onclick="ConfirmAndAlert1()">Add</button>
+        <button type="submit" class="btn btn-info col-1" onclick="ConfirmAndAlert1()">Add</button>
         <button type="submit" class="btn btn-success col-1" onclick="ConfirmAndAlert2()">Update</button>
     </div>
 </form>
